@@ -1,3 +1,2 @@
-include:
-    - os: windows
-      language: sh
+language: sh
+os: windows
