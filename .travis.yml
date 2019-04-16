@@ -1,3 +1,4 @@
+lanaguage: powershell
 os: windows
 script:
   - pwd
