@@ -1,3 +1,6 @@
 language: sh
 os: windows
-powershell 
+packages:
+  - powershell
+script:
+  - pwsh -c 'Install-Module Pester -Force -Scope CurrentUser; .\DoTests.ps1'
