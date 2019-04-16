@@ -1,3 +1,4 @@
 os: windows
 script:
   - pwd
+  - checkdiskspace.ps1
