@@ -1,2 +1,2 @@
-language: sh
+language: powershell
 os: windows
