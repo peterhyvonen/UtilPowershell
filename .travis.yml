@@ -1,5 +1,5 @@
-lanaguage: sh
 os: windows
+lanaguage: sh
 script:
   - pwd
   - checkdiskspace.ps1
