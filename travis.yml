@@ -1,0 +1,6 @@
+language: sh
+os: windows
+script:
+  - powershell -c 'Set-ExecutionPolicy -ExecutionPolicy Unrestricted'
+  - powershell -c '.\checkdiskspace.ps1'
+  - powershell -c 'Get-ComputerInfo'
