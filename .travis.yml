@@ -1,4 +1,4 @@
-lanaguage: powershell
+lanaguage: sh
 os: windows
 script:
   - pwd
